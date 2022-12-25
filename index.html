@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netwerkstatt Amberg</title>
+    <link rel="stylesheet" href="styling.css" class="stylingcss">
+    <link rel="shortcut icon" href="images/Logo_Netzwerkstatt.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<script src="main.js"></script>
+<body>
+   <header class="bigscreen">
+       <div class="container">
+            <div class="main-head">
+                <div class="logo">
+                <a href="#home"><img src="images/Logo_Netzwerkstatt.jpg" alt=""></a>
+                <div class="name"><a href="#home">Netzwerkstatt</a></div>
+            </div>
+                <nav class="nav">
+                    <ul>
+                        <li class="links"><a href="#home">Start</a></li>
+                        <li class="links"><a href="#video">Videovorstellung</a></li>
+                        <li class="links"><a href="#about">Über uns</a></li>
+                        <li class="links linkskontakt"><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+       </div>
+   </header>
+
+   <header class="smallscreen">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Start</a>
+        <a href="#video">Videovorstellung</a>
+        <a href="#about">Über uns</a>
+        <a class="sidenavkontaktgelb" href="#contact">Kontakt</a>
+      </div>
+      
+      <div class="main-head">
+      <div class="logo">
+        <a href="#home"><img src="images/Logo_Netzwerkstatt.jpg" alt=""></a>
+        <div class="name"><a href="#home">Netzwerkstatt</a></div>
+    </div>
+      <span class="threelines" onclick="openNav()">&#9776; </span>
+    </div>
+
+   </header>
+
+
+   <section id="home">
+       <div class="entirehome">
+       <div class="sloganundkontakt">
+       <div class="slogan">
+           Das Unternehmernetzwerk Ambergs mit <h1>Spaß</h1>
+            und <h1>ohne Verpflichtungen</h1>
+       </div>
+       <div class="kontaktaufnehmen"><a href="#contact">Kontakt aufnehmen</a></div>
+    </div>
+    <div class="unseremitglieder">
+     <h2>Unsere Mitglieder</h2>
+     <div class="scrollplease"> Scrollen Sie gerne nach rechts, um einige unserer vielfältigen Unternehmen kennenzulernen </div>
+     <div class="clickplease"> Klicken Sie gerne nach links oder rechts, um einige unserer vielfältigen Unternehmen kennenzulernen</div>
+ </div>
+ <!-- small screen logokarussel -->
+    <div class="logokarussel1">     
+        <div class="verschiedenelogos">
+            <figure>
+                <a href="https://www.backhaus-kutzer.de/start"><img src="logo/Backhuas Kutzer.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="http://www.sportnanka.de/"><img src="logo/Sport Nanka.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.piehler-kemnath.de/"><img src="logo/Piehler_Logo.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://phd-it-systeme.de/"><img src="logo/PHD.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.elektrolueck.de/"><img src="logo/Elektro Lück.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://trendhouse-whirlpools.de/ueber-uns/"><img src="logo/trendhouse.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.shapeup-training.de/"><img src="logo/shapeup.jpeg" alt=""></a>
+            </figure>
+            
+            <figure>
+                <a href="https://www.ambergtax.de/"><img src="logo/steuerberater ambergtax.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.alpha-tech-kummert.de/"><img src="logo/alphatech.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.ingenieurbuero-fellner.de/"><img src="logo/markus fellner.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.transform-r2.com/de/"><img src="logo/Transform GmbH.svg" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://www.inpunkt-media.de/"><img src="logo/inpunkt media.png" alt=""></a>
+            </figure>
+            <figure>
+                <a href="https://aaa-plus.info/"><img src="logo/aaa plus.png" alt=""></a>
+            </figure>
+            
+        </div>
+            
+        </div>
+
+        <!-- big screen: logokarussel -->
+    <div class="logokarusselarrows"> 
+        <div id="arrowleft" onclick="arrowleft()" class="arrowleft"><i class="fas arrows fa-arrow-circle-left"></i></div>
+        <div class="logoscreens">
+            <div id="firstslide" class="firstslide verschiedenelogosbig">
+                <figure>
+                    <a href="https://www.backhaus-kutzer.de/start"><img src="logo/Backhuas Kutzer.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="http://www.sportnanka.de/"><img src="logo/Sport Nanka.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://www.piehler-kemnath.de/"><img src="logo/Piehler_Logo.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://phd-it-systeme.de/"><img src="logo/PHD.png" alt=""></a>
+                </figure>
+            </div>
+            <div id="secondslide" class="secondslide verschiedenelogosbig">
+                <figure>
+                    <a href="https://www.elektrolueck.de/"><img src="logo/Elektro Lück.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://trendhouse-whirlpools.de/ueber-uns/"><img src="logo/trendhouse.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://www.shapeup-training.de/"><img src="logo/shapeup.jpeg" alt=""></a>
+                </figure>
+                
+                <figure>
+                    <a href="https://www.ambergtax.de/"><img src="logo/steuerberater ambergtax.png" alt=""></a>
+                </figure>
+            </div>
+            <div id="thirdslide" class="thirdslide verschiedenelogosbig">
+                <figure>
+                    <a href="https://www.alpha-tech-kummert.de/"><img src="logo/alphatech.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://www.ingenieurbuero-fellner.de/"><img src="logo/markus fellner.png" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://www.transform-r2.com/de/"><img src="logo/Transform GmbH.svg" alt=""></a>
+                </figure>
+                <figure>
+                    <a href="https://www.inpunkt-media.de/"><img src="logo/inpunkt media.png" alt=""></a>
+                </figure>
+            </div>
+            <div id="fourthslide" class="fourthslide verschiedenelogosbig">
+                <figure>
+                    <a href="https://aaa-plus.info/"><img src="logo/aaa plus.png" alt=""></a>
+                </figure>
+            </div>
+        </div>    
+        <div id="arrowright" onclick="arrowright()" class="arrowright"><i class="fas arrows fa-arrow-circle-right"></i></div>
+        </div>
+    </div>
+
+
+   </section>
+   <section id="video">
+    <div class="videoplustext">
+        <div class="videootv">
+            <a href="https://www.otv.de/mediathek/video/amberg-business-zum-fruehstueck-mit-spassfaktor/">
+                <img src="images/screenshot_otv_video (1).png" alt="">
+            </a>
+        </div>
+        <div class="otvverlinkung">
+        Klicken Sie auf <a href="https://www.otv.de/mediathek/video/amberg-business-zum-fruehstueck-mit-spassfaktor/" class="otvlink">Oberpfalz TV</a>
+        für das gesamte Video!
+        </div>
+    </div>
+    
+    
+   </section>
+   <section id="about">
+    <div class="roynankaansprache">
+        <div class="royimage">
+            <img src="images/Roy Nanka.jpeg" alt="">
+        </div>
+        <div class="roynankatext">
+Durchschnittlich zweimal im Monat treffen sich Unternehmer aus Amberg und Umgebung um über ihre Projekte zu berichten und gegenseitig Empfehlungen auszusprechen.
+Das umfasst unter anderem ein gemeinsames Frühstück im <a href="http://www.landhotel-aschenbrenner.de/">Landhotel Aschenbrenner</a> am ersten Montag eines jeden Monats.
+ 
+Die Idee dahinter? Neues lernen, sich weiterbilden - und das in einem Format, welches auch nach einem langen Arbeitstag Langeweile vorbeugt. <br>
+
+Der Begriff NetzWerkstatt wurde mit Bedacht gewählt: Er soll die Kreativität und den Schaffungswillen widerspiegeln, welche alle Mitglieder gemeinsam haben und einbringen sollen. 
+Die NetzWerkstatt ist der Treffpunkt für die Unternehmer Ambergs und Umgebung, 
+die mit Leidenschaft etwas bewegen wollen. <br>
+Empfehlungsmarketing auf regionaler Ebene, lockerer Austausch unter Selbstständigen, Förderung des "cross selling"-Gedankens sowie das "Tun" - dafür steht die NetzWerkstatt! 
+Keine Franchisegebühren, keine Vereinsmeierei, einfach mit Spaß dabei sein. <br>
+Schauen Sie doch mal vorbei!
+ 
+ <br><br>
+  
+Wir freuen uns auf Sie! <br> Roy Nanka und das NetzWerk-Team
+        </div>
+    </div>
+
+   
+  
+
+
+
+
+
+   </section>
+   
+   <section id="contact">
+<div class="formsmallerscreen">
+       <form action="https://formsubmit.co/932e261554ab66b7256e2ce7c85dbb88" method="POST">
+        <input type="hidden" name="_subject" value="Anfrage NetzWerkstatt">
+           <input type="hidden" name="_captcha" value="false">
+           <input type="hidden" name="_next" value="https://www.netzwerkstatt-amberg.de/index.html">
+           <input class="inputelements" type="text" name="name" id="name" placeholder="Ihr Name | Ihr Unternehmen"><br>
+           <input class="inputelements" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="text" name="email" id="email" required placeholder="Ihre Email-Adresse" oninvalid="this.setCustomValidity('Geben Sie bitte hier Ihre gültige Email-Adresse ein')"
+           oninput="this.setCustomValidity('')"/>
+           
+           <textarea class="inputelements" style="margin-top: 1rem;" name="nachricht" id="nachricht" cols="50" rows="10" required placeholder="Ihre Nachricht" oninvalid="this.setCustomValidity('Tippen Sie bitte hier Ihre Nachricht an Roy Nanka ab')"
+           oninput="this.setCustomValidity('')"/></textarea>
+           <button class="versendebutton" type="submit">Jetzt versenden</button>
+       </form>
+    </div>
+   </section>
+   <section id="footer">
+    <div class="copyright"> Copyright &copy; 2021 || Erstellt von <a href="https://marconanka.com/">Marco Nanka</a> in Zusammenarbeit mit <a href="http://www.sportnanka.de/">Sportnanka</a> </div>
+   </section>
+</body>
+</html>
