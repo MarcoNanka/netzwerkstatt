@@ -464,7 +464,7 @@ header.smallscreen {
   align-items: center;
   margin: auto;
 }
-.videootv img {
+.video_otv img {
   display: block;
   margin: 10rem auto;
   width: 80%;
@@ -503,7 +503,7 @@ header.smallscreen {
   .videoplustext {
     flex-direction: column;
   }
-  .videootv img {
+  .video_otv img {
     margin: 8rem auto 2rem auto;
   }
   .otvverlinkung {
@@ -517,7 +517,7 @@ header.smallscreen {
   .otvverlinkung {
     font-size: 1.4rem;
   }
-  .videootv img {
+  .video_otv img {
     margin: 6rem auto 2rem auto;
   }
   .otvverlinkung {
